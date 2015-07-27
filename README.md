@@ -1,2 +1,3 @@
-# makerDEO-splash
+# makerDAO-splash
+
 Temp. Landing Page
