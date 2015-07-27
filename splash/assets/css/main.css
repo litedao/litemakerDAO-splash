@@ -96,9 +96,10 @@
 		-moz-justify-content: center;
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
-		justify-content: center;
-		background-color: #000;
+		background-color: #FFF;
+		text-align: center;
 		padding: 6em 4em 4em 4em;
+
 	}
 
 		body > * {
@@ -286,9 +287,8 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(255, 255, 255);
 		font-family: "Roboto", sans-serif;
-		font-size: 15pt;
 		font-weight: 100;
 		letter-spacing: -0.01em;
 		line-height: 1.65em;
@@ -464,14 +464,21 @@
 		text-align: center;
 	}
 
+	header {
+		border: 2px solid #efefef;
+		padding: 1rem 2rem;
+	}
+
+
+
 	header p {
-		color: rgba(255, 255, 255, 0.5);
+		color: #546979;
 		position: relative;
-		margin: 0 0 1.5em 0;
+		margin: 0em 0 1.5em 0;
 	}
 
 	header h2 + p {
-		font-size: 1.25em;
+		font-size: 1em;
 		margin-top: -1em;
 		line-height: 1.5em;
 	}
@@ -948,19 +955,21 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		background-color: #1cb495;
-		border-radius: 6px;
+		border-radius: 2px;
 		border: 0;
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
-		height: 2.75em;
-		line-height: 2.75em;
 		padding: 0 1.125em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		font-size: 15px;
+		font-weight: 100;
 	}
+
+
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
@@ -968,6 +977,7 @@
 		button:hover,
 		.button:hover {
 			background-color: #1fcaa7;
+			color: #ffffff !important;
 		}
 
 		input[type="submit"]:active,
@@ -977,6 +987,8 @@
 		.button:active {
 			background-color: #199e83;
 		}
+
+
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
@@ -997,7 +1009,7 @@
 			input[type="button"],
 			button,
 			.button {
-				padding: 0;
+				padding: 0.4rem;
 			}
 
 		}
@@ -1008,6 +1020,7 @@
 		font-size: 3.25em;
 		margin: 0 0 0.55em 0;
 	}
+
 
 	#header p {
 		font-size: 1.35em;
@@ -1100,11 +1113,14 @@
 		-webkit-transition: opacity 0.5s ease-in-out;
 		-ms-transition: opacity 0.5s ease-in-out;
 		transition: opacity 0.5s ease-in-out;
-		bottom: 4em;
-		color: rgba(255, 255, 255, 0.5);
-		left: 4em;
+		color: rgba(0, 0, 0, 0.75);
 		opacity: 0.5;
 		position: absolute;
+		text-align: center;
+		margin: 0 auto;
+		width: 100%;
+		left: 0;
+		bottom: 3.5em;
 	}
 
 		#footer .icons {
@@ -1147,7 +1163,7 @@
 
 			#footer {
 				bottom: 3.5em;
-				left: 3.5em;
+				left: 0;
 			}
 
 		}
@@ -1156,7 +1172,7 @@
 
 			#footer {
 				bottom: 2em;
-				left: 2em;
+						left: 0;
 			}
 
 		}
@@ -1165,7 +1181,7 @@
 
 			#footer {
 				bottom: 1.25em;
-				left: 1.25em;
+				left: 0;
 			}
 
 		}
@@ -1174,9 +1190,13 @@
 
 			#footer {
 				bottom: auto;
-				left: auto;
-				margin: 1em 0 0 0;
+				left: 0;
+				margin: 1em auto;
 				position: relative;
 			}
 
 		}
+
+.logo {
+	margin: 24px 0 24px 0;
+}

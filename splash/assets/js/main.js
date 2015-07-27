@@ -39,9 +39,9 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'splash/images/bg01.jpg': 'center',
-							'splash/images/bg02.jpg': 'center',
-							'splash/images/bg03.jpg': 'center'
+							'splash/images/bg00.jpg': 'center',
+							'splash/images/bg00.jpg': 'center',
+							'splash/images/bg00.jpg': 'center'
 						},
 
 					// Delay.
