@@ -1272,7 +1272,36 @@
 		}
 
 .logo {
-	margin: 24px 0 12px 0;
+	margin: 24px auto;
 	width: 100%;
 	max-width: 196px;
+}
+
+ul.links {
+	list-style: none;
+	padding: 12px 0;
+	margin-left: 12px;
+}
+
+ul.links li {
+	display: inline;
+	text-align: center;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+ul.links li:first-child {
+	border-right: 1px solid #546979;
+	padding-right: 10px;
+}
+
+ul.links li:last-child {
+	border-left: 1px solid #546979;
+	padding-left: 12px;
+}
+
+ul.links li a{
+text-align: center;
+padding: 0.6rem;
+font-size: 13pt;
 }
