@@ -1,6 +1,6 @@
 ## Join our community SLACK channel
 
-<img src="https://slack.makerdao.com/badge.svg">
+<img src="https://makerdao.slack.com/badge.svg">
 
 # makerDAO-splash
 
