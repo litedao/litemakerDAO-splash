@@ -1,8 +1,7 @@
 ## Join our community SLACK channel
 
 
-[![Slack Status](http://slack.makerdao.com/badge.svg]
-
+[![Slack Status](https://slack.makerdao.com/badge.svg)](https://makerdao.com)
 
 # makerDAO-splash
 
